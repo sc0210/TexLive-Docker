@@ -22,3 +22,5 @@ Examples/Archive
 *.gz
 *.pdf
 *.fdb_latexmk
+
+*.DS_Store
