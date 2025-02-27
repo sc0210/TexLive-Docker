@@ -1,0 +1,3 @@
+[submodule "Examples/NCTU-Thesis-LaTeX-Template"]
+	path = Examples/NCTU-Thesis-LaTeX-Template
+	url = https://github.com/borting/nctu-thesis.git
