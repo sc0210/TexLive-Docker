@@ -1,0 +1,8 @@
+services:
+  server:
+    build: .
+    container_name: texlive-container
+    volumes:
+      - ../:/workspace
+    user: root
+

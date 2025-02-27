@@ -1,0 +1,12 @@
+{
+  "name": "TeXlive",
+  "dockerFile": "Dockerfile",
+  "remoteUser": "root",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": ["James-Yu.latex-workshop"]
+    }
+  },
+  "mounts": ["source=${localWorkspaceFolder},target=/workspace,type=bind"]
+}

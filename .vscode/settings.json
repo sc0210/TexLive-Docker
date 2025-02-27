@@ -1,0 +1,87 @@
+{
+    // Latetx Workshop
+    "latex-workshop.latex.recipes": [
+      {
+        "name": "xelatex -> bibtex -> xelatex*2",
+        "tools": ["xelatex", "bibtex", "xelatex", "xelatex"]
+      },
+      {
+        "name": "xelatex",
+        "tools": ["xelatex"]
+      },
+      {
+        "name": "latexmk",
+        "tools": [
+          "latexmk_clean",
+          "latexmk_all",
+          "pdflatex",
+          "bibtex",
+          "pdflatex",
+          "pdflatex"
+        ]
+      }
+    ],
+    "latex-workshop.latex.tools": [
+      {
+        "name": "latexmk_clean",
+        "command": "make",
+        "args": ["clean"]
+      },
+      {
+        "name": "latexmk_all",
+        "command": "make",
+        "args": ["all"]
+      },
+      {
+        "name": "xelatex",
+        "command": "xelatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "--shell-escape",
+          "%DOC%"
+        ]
+      },
+      {
+        "name": "pdflatex",
+        "command": "pdflatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ]
+      },
+      {
+        "name": "bibtex",
+        "command": "bibtex",
+        "args": ["%DOCFILE%"]
+      }
+    ],
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.latex.recipe.default": "first",
+    // "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.clean.fileTypes": [
+      "*.aux",
+      "*.bbl",
+      "*.blg",
+      "*.idx",
+      "*.ind",
+      "*.lof",
+      "*.lot",
+      "*.out",
+      "*.toc",
+      "*.acn",
+      "*.acr",
+      "*.alg",
+      "*.glg",
+      "*.glo",
+      "*.gls",
+      "*.ist",
+      "*.fls",
+      "*.log",
+      "*.fdb_latexmk"
+    ]
+  }
+  
