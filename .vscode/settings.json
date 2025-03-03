@@ -49,6 +49,10 @@
       "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
     },
     {
+      "name": "XeLaTex*3 (No Bib)",
+      "tools": ["xelatex", "xelatex", "xelatex"]
+    },
+    {
       "name": "XeLaTex",
       "tools": ["xelatex"]
     },
