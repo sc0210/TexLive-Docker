@@ -8,5 +8,7 @@
       "extensions": ["James-Yu.latex-workshop"]
     }
   },
-  "mounts": ["source=${localWorkspaceFolder},target=/workspace,type=bind"]
+  "mounts": ["source=${localWorkspaceFolder},target=/workspace,type=bind"],
+  "postCreateCommand": "/bin/bash /workspace/install_fonts.sh"
+
 }
