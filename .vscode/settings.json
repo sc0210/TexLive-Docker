@@ -62,7 +62,7 @@
   "latex-workshop.formatting.latex": "latexindent",
   "latex-workshop.view.pdf.viewer": "external",
   "latex-workshop.latex.recipe.default": "first",
-  // "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.autoBuild.run": "onSave",
   "latex-workshop.latex.clean.fileTypes": [
     "*.aux",
     "*.bbl",

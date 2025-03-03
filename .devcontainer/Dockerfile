@@ -4,7 +4,9 @@ FROM texlive/texlive
 
 # Install necessary packages and add multiverse repository
 RUN apt-get update && \
-    apt-get install -y fontconfig inkscape
+    apt-get install -y \
+    fontconfig \
+    inkscape
 
 RUN apt-get install fonts-arphic-ukai && \
     fc-cache -f -v
