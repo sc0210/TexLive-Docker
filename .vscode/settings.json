@@ -96,6 +96,7 @@
   "latex-workshop.latex.recipe.default": "first",
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.autoClean.run": "onFailed",
+  "latex-workshop.formatting.latex": "latexindent",
 
   // Internal PDF viewer setting
   "latex-workshop.latex.outDir": "%DIR%",
