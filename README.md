@@ -32,9 +32,11 @@ Using **Dev Containers (`.devcontainer/`)** in VS Code makes it easy to develop 
    │   ├── 📝 compose.yml
    │   ├── 📝 devcontainer.json  # (for VSCode Remote-Containers)
    │── 📂 .vscode/
-   |   ├── 📝 settings.json
-   │── 📄 myfile.tex   # (your LaTeX files outside .devcontainer/)
-   │── 📄 another_file.tex
+   |   ├── 📝 settings.json # (store LaTex compile recipe)
+   |── 📂 Project1
+   |   ├── 📄 main.tex 
+   |── 📂 CV
+   |   ├── 📄 cv.tex
    ```
 
 ## **Step: Build container & open in VS Code**
@@ -53,8 +55,6 @@ Using **Dev Containers (`.devcontainer/`)** in VS Code makes it easy to develop 
 1. **Check before compiling:**
    - Ensure the VS Code extension **LaTeX Workshop (James Yu)** is installed.
    - Check `config/font.tex` settings:
-     - **English:** `FreeSerif`
-     - **Chinese:** `AR PL UKai TW`
 
 2. **Compile LaTeX:**
    - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac).
@@ -62,8 +62,11 @@ Using **Dev Containers (`.devcontainer/`)** in VS Code makes it easy to develop 
 
 
 ---
+## **Links**
 
-✅ Now you're ready to write and compile LaTeX documents inside your Dev Container! 🚀
+- [Overleaf Template Links (Official)](https://www.overleaf.com/latex/templates)
+- [Taiwan College LaTeX (Dcard)](https://www.dcard.tw/f/graduate_school/p/255290542)
+
 
 <!--  
 
