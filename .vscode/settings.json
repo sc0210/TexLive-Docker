@@ -57,6 +57,10 @@
       "tools": ["xelatex"]
     },
     {
+      "name": "pdfLaTex",
+      "tools": ["pdflatex"]
+    },
+    {
       "name": "BibTex",
       "tools": ["bibtex"]
     },
