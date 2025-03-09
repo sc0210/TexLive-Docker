@@ -17,7 +17,7 @@ Using **Dev Containers (`.devcontainer/`)** in VS Code makes it easy to develop 
 
 2. **Clone and open the project in VS Code**
    ```sh
-   git clone https://github.com/sc0210/TexLive-Docker.git
+   git clone --recurse-submodules https://github.com/sc0210/TexLive-Docker.git
 
    cd TexLive-Docker
    code .
