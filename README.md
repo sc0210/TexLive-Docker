@@ -66,6 +66,7 @@ Using **Dev Containers (`.devcontainer/`)** in VS Code makes it easy to develop 
 
 - [Overleaf Template Links (Official)](https://www.overleaf.com/latex/templates)
 - [Taiwan College LaTeX (Dcard)](https://www.dcard.tw/f/graduate_school/p/255290542)
+- [YouTube Tutorial](https://youtu.be/me2N0JI55Bk)
 
 
 <!--  
